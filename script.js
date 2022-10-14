@@ -5,8 +5,8 @@ button.addEventListener('click', function() {
   const senha = document.forms['form'].password.value;
   if (email === 'tryber@teste.com' && senha === '123456'){
     alert('Olá, Tryber!')
-    else {
-      alert('Email ou senha inválidos')
-    }
   }
+    else {
+      alert('Email ou senha inválidos.')
+    }
 });
